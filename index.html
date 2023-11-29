@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>TP HTML5</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white dark:bg-slate-800 font-sans h-screen">
+    <header class="py-2 px-6 text-white bg-gray-800 flex justify-between">
+      <div class="flex flex-row items-center">
+        <span class="material-symbols-outlined"> smartphone </span>
+        <p class="font-thin text-sm ml-2">0555-55-55-55</p>
+      </div>
+
+      <div class="flex flex-row items-center">
+        <span class="material-symbols-outlined"> mail </span>
+        <p class="font-thin text-sm ml-2">anesrif@gmail.dz</p>
+      </div>
+    </header>
+    <main class="flex">
+      <aside
+        class="w-40 h-[calc(100vh-97px)] px-4 py-10 bg-[#1A00DB] text-white"
+      >
+        <ul>
+          <li class="mb-2">Dash</li>
+          <li class="mb-2">Portfolio</li>
+        </ul>
+      </aside>
+      <section class="w-full">
+        <nav
+          class="w-full h-10 space-x-8 bg-white pl-5 py-2 flex justify-between"
+        >
+          <div>
+            <h1 class="font-bold">Dashboard</h1>
+          </div>
+          <div class="pr-4">
+            <input
+              type="text"
+              placeholder="Search"
+              class="border-2 border-slate-200 rounded-xl pl-3"
+            />
+          </div>
+        </nav>
+        <section class="w-full h-[calc(100vh-140px)] bg-[#F5F5F5]">
+          <div class="grid grid-cols-4 gap-3 p-4">
+            <div class="rounded-xl p-4 bg-[#0054DB] space-y-4 text-white">
+              <p class="text-sm">Current MRR</p>
+              <p class="font-bold text-5xl">$12.4K</p>
+            </div>
+            <div class="rounded-xl p-4 bg-[#8700DB] space-y-4 text-white">
+              <p class="text-sm">Current customers</p>
+              <p class="font-bold text-5xl">16,601</p>
+            </div>
+            <div class="rounded-xl p-4 bg-[#E1BDF6] space-y-4">
+              <p class="text-sm">Active customers</p>
+              <p class="font-bold text-5xl">30%</p>
+            </div>
+            <div class="rounded-xl p-4 bg-[#CDD5D1] space-y-4">
+              <p class="text-sm">Current MRR</p>
+              <p class="font-bold text-5xl">3%</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-4 px-4 py-2 gap-3">
+            <div class="rounded-xl bg-white p-4 col-span-2">
+              <h4>Trend</h4>
+            </div>
+            <div class="rounded-xl bg-white p-4">
+              <h4>Sales</h4>
+            </div>
+            <div class="rounded-xl bg-white p-4">
+              <h4 class="mb-3">Transactions</h4>
+              <ol type="a">
+                <li>Tr 1</li>
+                <li>Tr 2</li>
+                <li>Tr 3</li>
+                <li>Tr 4</li>
+                <li>Tr 5</li>
+              </ol>
+              <button
+                class="w-full rounded bg-[#0054DB] text-white hover:bg-[#8700DB] border-0 mt-3"
+              >
+                View all transactions
+              </button>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 px-4 py-2 gap-3">
+            <div class="rounded-xl bg-white p-4">D</div>
+            <div class="rounded-xl bg-white p-4">E</div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="py-4 text-white bg-gray-500 flex justify-center">
+      &copy; ANESRIF. Tous droits réservés.
+    </footer>
+  </body>
+</html>
